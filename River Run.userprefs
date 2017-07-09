@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Dialogs/GameOverDialog.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameManager.cs" Line="100" Column="1" />
+      <File FileName="Assets/Scripts/PlayerObj.cs" Line="43" Column="18" />
+      <File FileName="Assets/Scripts/UIGameRecycle.cs" Line="21" Column="3" />
+      <File FileName="Assets/Scripts/LitterAndBrarier/PlushEffect.cs" Line="25" Column="34" />
+      <File FileName="Assets/Scripts/GameInfo.cs" Line="5" Column="36" />
+      <File FileName="Assets/Scripts/LifeNumber.cs" Line="5" Column="24" />
+      <File FileName="Assets/Scripts/Dialogs/GameOverDialog.cs" Line="15" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
