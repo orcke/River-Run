@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(Collision2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class PController : MonoBehaviour {
 	private float leftSide = -3.0F;
 	private float rightSide = 3.0F;
@@ -9,7 +12,7 @@ public class PController : MonoBehaviour {
 	private bool isRight;
 	private Rigidbody2D rgb2D;
 
-	public float speed = 4.00f;
+	private float speed = 4.50f;
 
 	void Start () {
 		rgb2D = GetComponent<Rigidbody2D> ();

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(Collision2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class DynamicBhv : MonoBehaviour {
 	private Rigidbody2D rgb2D;
 	protected Vector2 velocityDir = new Vector2 (0, -0.05F);
