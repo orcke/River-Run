@@ -5,12 +5,18 @@ using UnityEngine.UI;
 
 public class QuestionDialog : MonoBehaviour {
 	[SerializeField] private Text textQuestion;
+	[SerializeField] private Text textTitle;
 	[SerializeField] private Transform answerParent;
 	[SerializeField] private GameObject answerButton;
 	[SerializeField] private GameObject buttonTramTaiChe;
 
 	private QuestionData questionData;
 	private int questionIndex = -1;
+
+	void Start() {
+		string title = textTitle.text + " " + GameManager.instant.level;
+		textTitle.text = title;
+	}
 
 	public int getQuestion() {
 		List<QuestionData> listData = GameManager.instant.questionList;

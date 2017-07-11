@@ -25,6 +25,6 @@ public class GameOverDialog : MonoBehaviour {
 
 		tongDiem.text = _tongDiem + score.ToString ()
 			+ " \n Em đã thu được " + (score / 3).ToString ("0")
-			+ " rác thải hãy chơi lại để tái chế được nhiều rác trên sông hơn nữa nhé!";
+			+ " rác! \n Hãy chơi lại để tái chế được nhiều rác trên sông hơn nữa nhé!";
 	}
 }

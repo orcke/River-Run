@@ -21,5 +21,10 @@ public class GameCompleteDialog : MonoBehaviour {
 	void Start() {
 		int score = GameManager.instant.player.score;
 		tongDiem.text = "Chúc mừng em đạt được " + score.ToString () + " điểm!";
+
+		if (GameManager.instant.player.checkHighScore ()) {
+			tongDiem.text = "Chúc mừng em đạt điểm cao nhất: " + score.ToString () + " điểm!";
+		}
+
 	}
 }

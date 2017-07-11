@@ -1,11 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LitterAndBrarier/PlushEffect.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameInfo.cs">
     <Files>
-      <File FileName="Assets/Scripts/PController.cs" Line="4" Column="1" />
-      <File FileName="Assets/Scripts/LitterAndBrarier/DynamicBhv.cs" Line="6" Column="40" />
+      <File FileName="Assets/Scripts/Dialogs/GameOverDialog.cs" Line="20" Column="3" />
+      <File FileName="Assets/Scripts/PController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LitterAndBrarier/DynamicBhv.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LitterAndBrarier/Litter.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LitterAndBrarier/PlushEffect.cs" Line="7" Column="40" />
+      <File FileName="Assets/Scripts/Questions/QuestionDialog.cs" Line="18" Column="26" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="8" Column="16" />
+      <File FileName="Assets/Scripts/GameInfo.cs" Line="5" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
